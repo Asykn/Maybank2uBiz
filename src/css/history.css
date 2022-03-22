@@ -1,0 +1,99 @@
+.container div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0px 25px;
+    
+}
+.history{
+    position: static;
+    margin-top: 140px;
+    margin-left: 500px;
+
+}
+.history div{
+    background-color: #F1F1F5;
+    color: black;
+    height: 700px;
+    width: 738px;
+    margin: 0px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.history h1{
+position: static;
+width: 197px;
+height: 30px;
+left: 0px;
+top: 0px;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+/* identical to box height, or 167% */
+
+
+color: #0E1B42;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+
+.history table tr{
+    position: static;
+    width: 233px;
+    height: 48px;
+    left: 60px;
+    top: calc(50% - 48px/2);
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E1B42;
+/* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 18px;
+}
+
+.history table th{
+    position: static;
+height: 19px;
+left: 2.89%;
+right: 77.92%;
+top: calc(50% - 19px/2 - 0.5px);
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+letter-spacing: 1.16364px;
+text-transform: uppercase;
+
+color: #0E1B42;
+background-color: yellow;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 179px;
+}
