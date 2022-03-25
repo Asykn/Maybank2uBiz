@@ -1,3 +1,9 @@
+@media only screen and (min-width: 1024px) {
+    .sidebar{
+        display: none;
+    }
+}
+
 .sidebar {
     margin-top: 0px;
     padding: 0;

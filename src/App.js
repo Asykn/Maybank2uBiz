@@ -7,7 +7,7 @@ import All_history from './component/All_history';
 
 const App = () => (
     <>
-<div><Sidebar/></div>
+{/* <div><Sidebar/></div> */}
 <div><Topnav/></div>
 <div className = "first">SME First Account</div>
 <div><Acc_details/></div> 
