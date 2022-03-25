@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-
 import './App.css';
 import Sidebar from './component/Sidebar';
 import Topnav from './component/Topnav';
@@ -11,8 +9,13 @@ const App = () => (
     <>
 <div><Sidebar/></div>
 <div><Topnav/></div>
+<div className = "first">SME First Account</div>
 <div><Acc_details/></div> 
 <div><All_history/></div>
+<div>
+      <button className="button">View Statements</button>
+</div>
+
 </>
   );
 

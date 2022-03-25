@@ -6,8 +6,9 @@ const Acc_details = () => {
         <>
         <div>
         <div className="details">
-            <h1>Account Details</h1>
-
+            <div className="acc_details">
+                <h1>Account Details</h1>
+            </div>
             <h3>Account Number</h3>
             <h4>3101 2130 6725</h4>
             <h3>Available Balance</h3>

@@ -1,31 +1,27 @@
+@media only screen and (max-width: 8000px) {
 
 .details {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 26px 20px;
+    justify-content: space-evenly;
 
     position: absolute;
     width: 300px;
     height: 617px;
     left: 327px;
-    top: 168px;
+    top: 236px;
 
-    background: yellow;
+    background: white;
     border-radius: 10px;
 }
-.details h1{
-    position: static;
-    height: 25px;
-    left: 0%;
-    right: 40.38%;
-    top: calc(50% - 25px/2 - 16px);
-
+.acc_details h1{
     /* Text/Title - Medium */
     font-family: 'Rubik';
-    font-style: normal;
+    font-style: bold;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 28px;
     /* or 140% */
     /* Text Color/Dark Blue */
@@ -34,65 +30,57 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 32px 0px;
+    
 }
 
 .details h3{
     position: static;
-height: 20px;
-left: 0%;
-right: 5.93%;
-top: calc(50% - 20px/2 - 12px);
+    height: 16px;
+    left: 0%;
+    right: 5.93%;
+    top: calc(50% - 20px/2 - 12px);
 
-/* Text/Body - Regular */
+    /* Text/Body - Regular */
 
-font-family: 'Rubik';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-/* identical to box height, or 143% */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    /* identical to box height, or 143% */
+    /* Text Color/Blue */
 
+    color: #6F7FAF;
+    /* Inside auto layout */
 
-/* Text Color/Blue */
-
-color: #6F7FAF;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
 }
 
 .details h4{
     position: static;
-height: 24px;
-left: 0%;
-right: 0%;
-top: calc(50% - 24px/2 + 10px);
+    height: 20px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 24px/2 + 10px);
 
-/* Text/Subheader - Medium */
+    /* Text/Subheader - Medium */
 
-font-family: 'Rubik';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height, or 150% */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    /* Text Color/Dark Blue */
+    color: #0E1B42;
 
-
-/* Text Color/Dark Blue */
-
-color: #0E1B42;
-
-
-/* Inside auto layout */
-
-flex: none;
-/* order: 1; */
-flex-grow: 0;
-margin: 0px 0px;
+    /* Inside auto layout */
+    flex: none;
+    /* order: 1; */
+    flex-grow: 0;
+    margin: 0px 0px;
+}
 }
