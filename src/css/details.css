@@ -1,19 +1,17 @@
-@media only screen and (min-width: 1024px) {
+
     
-}
+
 
 .details {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 26px 20px;
     justify-content: space-evenly;
-
-    position: absolute;
-    width: 300px;
+    /* padding: 26px 20px; */
+    /* position: absolute; */
+    /* width: 300px; */
     height: 617px;
-    left: 327px;
-    top: 236px;
+    /* top: 40px; */
 
     background: white;
     border-radius: 10px;
