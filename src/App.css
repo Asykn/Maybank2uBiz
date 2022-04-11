@@ -1,55 +1,79 @@
-.App {
-  text-align: center;
-  background: #E5E5E5;
+
+.pageTwo{
+  margin-left: 80px;
+  margin-top: 100px;
 }
 
-.button {
-  background-color: #FFDD00;
-  border-radius: 8px;
-  color: black;
-  width: 208px;
-  height: 38px;
-  margin-left: 1460px;
-  margin-top:50px
+html {
+  background-color: #e5e5e5;
 }
-.first{
-
-  margin-top: 95px;
-  margin-left: 328px;
-
-  font-family: 'Rubik';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 30px;
-/* identical to box height, or 136% */
-  color: #0E1B42;
-}
-.container3 {
+.barSide {
   display: flex;
   flex-direction: row;
-  position: absolute;
-  margin-left: 327px; 
+}
+
+.barTop{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  /* align-items: flex-end; */
+  /* margin-left: 40px; */
+  margin-bottom: 47px;
+  /* margin-top: -1790px; */
+}
+
+.pageTwo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 47px;
+}
+/* .History-Details{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0px;
   
-}
-.conhis{
-  margin-left:110px;
-  margin-top:-15px;
-}
-/* .container2{
-  display:flex;
-  flex-direction: row;
+  position: absolute;
+  width: 738px;
+  height: 1079px;
+  left: 645px;
+  top: 169px;
 } */
-@media only screen and (max-width: 700px) {
-  .container3 {
+
+
+@media (max-width: 375px) {
+.background {
+  width: 400px;
+}
+
+  .barSide {
+    display: flex;
     flex-direction: column;
   }
-  .container1{
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-  /* .container2{
+  /* .barTop{
+    display: flex;
     flex-direction: column;
   } */
+
+  .pageTwo{
+    margin:0;
+    border-radius: 0;
+  }
+  .History-Details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    
+    position: absolute;
+    width: 355px;
+    height: 1261px;
+    left: 10px;
+    top: 925px;
+    
+  }
+
 }

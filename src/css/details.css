@@ -1,85 +1,133 @@
-
-    
-
-
-.details {
+.Details-container{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-evenly;
-    /* padding: 26px 20px; */
-    /* position: absolute; */
-    /* width: 300px; */
+    padding: 26px 20px;
+    
+    position: absolute;
+    width: 300px;
     height: 617px;
-    /* top: 40px; */
-
-    background: white;
+    left: 327px;
+    top: 168px;
+    
+    background: #FFFFFF;
     border-radius: 10px;
 }
-.acc_details h1{
-    /* Text/Title - Medium */
+
+.Details-title{
+    position: static;
+    height: 25px;
+    left: 0%;
+    right: 40.38%;
+    top: calc(50% - 25px/2 - 16px);
+    
     font-family: 'Rubik';
-    font-style: bold;
+    font-style: normal;
     font-weight: 500;
-    font-size: 25px;
-    line-height: 28px;
-    /* or 140% */
-    /* Text Color/Dark Blue */
-    color: #0e1b42;
-    /* Inside auto layout */
+    font-size: 20px;
+    line-height: 28px;   
+    color: #0E1B42;
+  
     flex: none;
     order: 0;
     flex-grow: 0;
-    
+    margin: 32px 0px;
 }
-
-.details h3{
+.Account-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
     position: static;
-    height: 16px;
+    width: 260px;
+    height: 492px;
+    left: 20px;
+    top: 99px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+.Info-details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* padding: 0px; */
+    /* position: absolute; */
+    width: 260px;
+    height: 44px;
+
+}
+.Info{
+    position: static;
+    height: 20px;
     left: 0%;
     right: 5.93%;
     top: calc(50% - 20px/2 - 12px);
-
-    /* Text/Body - Regular */
-
+    
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 18px;
-    /* identical to box height, or 143% */
-    /* Text Color/Blue */
-
+    font-size: 14px;
+    line-height: 20px;
+    
     color: #6F7FAF;
-    /* Inside auto layout */
 
     flex: none;
     order: 0;
     flex-grow: 0;
     margin: 0px 0px;
 }
-
-.details h4{
+.Sub-Info{
     position: static;
-    height: 20px;
+    height: 24px;
     left: 0%;
     right: 0%;
     top: calc(50% - 24px/2 + 10px);
-
-    /* Text/Subheader - Medium */
-
+    
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height, or 150% */
-    /* Text Color/Dark Blue */
+    
     color: #0E1B42;
 
-    /* Inside auto layout */
     flex: none;
-    /* order: 1; */
+    order: 1;
     flex-grow: 0;
     margin: 0px 0px;
+}
+
+@media (max-width: 375px){
+
+    .Details-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* padding: 0px; */
+    position: absolute;
+    width: 310px;
+    height: 545px;
+    left: 10px;
+    }
+    .Account-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 0px 0px 20px;
+    position: static;
+    width: 332px;
+    height: 500px;
+    /* left: 0px; */
+    top: 98px;
+    flex: none;
+    /* order: 1; */
+    /* flex-grow: 0; */
+    margin: 18px 0px;
+    }
+
 }

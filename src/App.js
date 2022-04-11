@@ -5,34 +5,24 @@ import Acc_details from './component/Acc_details';
 import All_history from './component/All_history';
 
 
-const App = () => (
+function App() {
+  return(
     <>
-{/* <div><Sidebar/></div>
-<div><Topnav/></div>
-<div className = "first">SME First Account</div>
-
-  <div><Acc_details/></div> 
-  <div><All_history/></div>
-
-<div>
-      <button className="button">View Statements</button>
-</div> */}
-<div className = "main">
-  <div className="container1">
-    <div><Sidebar /></div>
+    <div className ="barSide">
+      <Sidebar/>
+    <div className = "Topbar">
+    <div className = "barTop">
+      <Topnav/>
     </div>
-    <div className="container2">
-      <div><Topnav /></div>
-      <div className="first">SME First Account</div>
-      <div className="container3"><Acc_details />
-      <div className="conhis"><All_history/></div>
-    </div>     
-  </div>
-
-</div>
-
-</>
-);
+    {/* <div className = "History-Details"> */}
+    {/* <div><Acc_details/></div> */}
+    <div><All_history/></div>
+    {/* </div> */}
+   </div> 
+   </div>
+    </>
+  );
+}
 
 export default App;
 

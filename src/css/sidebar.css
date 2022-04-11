@@ -1,69 +1,121 @@
-@media only screen and (max-width: 700px) {
-    .sidebar{
-        display:flex ;
-    }
-}
-
-.sidebar {
+.SConatainer{
     display: flex;
     flex-direction: column;
-    width: 300px;
-    background: #0E1B42; 
-    position: absolute;
-    height: 1615px;
-    overflow: auto;
-}
-.image_side{
-    margin-top: 1rem;
+    Width: 288px;
+    Height: 100%;
+    /* position: fixed; */
+    background: #0E1B42;
+    z-index: 100;
+    }
+
+.sidebar{
+    Width: 288px;
+    Height: 1769px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
-.sidebar ul{
-    margin-top: 50px;
+
+.Logo{
+    Width: 227px;
+    Height: 33px;
+    margin-top: 35px;
+    margin-right: 29.38px;
+    margin-left: 31.17px;
 }
-.sidebar ul li{
+
+.Icon {
+    margin-left: 19px;
+    display: none;
+}
+
+.Mlogo {
+    margin-right: 29.38px;
+}
+
+.Logo2 {
+    margin-right: 19px;
+    display: none;
+}
+.SContain1{
+    margin-top: 15px;
+}
+.SContext1{
     position: relative;
     height: 50px;
-    width: 100%;
-    margin: 0 5px;
+    margin: 0 15px;
     list-style: none;
-    line-height:50px;
     border-radius: 12px;
     color: #fff;
-
     font-family: 'Rubik';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 21px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
 }
-
-.sidebar ul li a{
+.SContain{
+    margin-top: 15px;
+}
+.SContext{
+    position: relative;
+    height: 50px;
+    margin: 0 15px;
+    list-style: none;
+    border-radius: 12px;
     color: #fff;
-    display:flex;
-    align-items: center;
-    text-decoration: none;
-    transition: all 0.4s ease;
-    border-radius: 12px;
-    white-space: nowrap;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
 }
-
-.sidebar ul li:hover{
+.SContext:hover{
     color:#11101d;
-    background: #FFDD00;;
+    background: #FFDD00;
 }
-.sidebar ul li i{
-    height:50px;
-    min-width: 50px;
-    border-radius: 12px;
-    line-height: 50px;
-    text-align: center;
-}
-.sidebar .links_name{
-    opacity: 1;
-    pointer-events: auto;
-}
-.sidebar.active .links_name{
-    opacity: 1;
-    pointer-events: auto;
-}
+@media (max-width: 375px) {
+
+    .SConatainer {
+        Width: 100%;
+        Height: 70px;
+        /* background-color: lightblue; */
+    }
+
+    .sidebar{
+        width: 100%;
+    }
+    .Logo {
+
+        margin: 0;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+
+        /* Width: 227px;
+        Height: 33px;
+        margin-top: 35px; */
+    }
+
+    .Icon{
+        margin-left: 19px;
+        display: contents;
+    }
+    
+    .Mlogo {
+        margin-left: 51px;
+        margin-right: 25px;
+    }
+    
+    .Logo2 {
+        margin-right: 19px;
+        display: contents;
+    }
+
+   .SContain1 {
+       display: none;
+   }
+
+   .SContain {
+    display: none;
+   }
+  
+  }
