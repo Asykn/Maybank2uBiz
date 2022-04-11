@@ -14,10 +14,10 @@ function App() {
     <div className = "barTop">
       <Topnav/>
     </div>
-    {/* <div className = "History-Details"> */}
-    {/* <div><Acc_details/></div> */}
+    <div className = "History-Details">
+    <div><Acc_details/></div>
     <div><All_history/></div>
-    {/* </div> */}
+    </div>
    </div> 
    </div>
     </>
